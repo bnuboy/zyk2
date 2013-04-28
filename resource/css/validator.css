@@ -1,0 +1,45 @@
+.onShow
+{
+    background:url(/resource/master/style/reg1.gif) no-repeat;
+	background-position: 0;
+    padding-left:25px;
+	font-size: 12px;
+	line-height:22px;
+	vertical-align:middle;
+}
+.onFocus
+{
+    background:#E9F0FF url(/resource/master/style/reg2.gif) no-repeat;
+	background-position: 0;
+    padding-left:25px;
+	font-size: 12px;
+	line-height:22px;
+	vertical-align:middle;
+}
+.onError
+{
+    background:#FFF2E9 url(/resource/master/style/reg3.gif) no-repeat;
+	background-position: 0;
+    padding-left:25px;
+	font-size: 12px;
+	line-height:22px;
+	vertical-align:middle;
+}
+.onCorrect
+{
+    background:#E9FFEB url(/resource/master/style/reg4.gif) no-repeat;
+	background-position: 0;
+    padding-left:25px;
+	font-size: 12px;
+	line-height:22px;
+	vertical-align:middle;
+}
+.onLoad
+{
+    background:#E9FFEB url(/resource/master/style/loading.gif) no-repeat 3px 3px;
+	background-position: 0;
+    padding-left:25px;
+	font-size: 12px;
+	line-height:22px;
+	vertical-align:middle;
+}

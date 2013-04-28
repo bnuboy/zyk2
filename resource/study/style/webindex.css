@@ -1,0 +1,464 @@
+@charset "utf-8";
+/*
+-----------------------------------------------
+Author:   kandy gu 
+Version:  2012.3
+----------------------------------------------- */
+
+/*全局设置*/
+*{
+  margin:0px; padding:0px;
+}
+
+body, html {
+	margin: 0;
+	padding: 0;
+	background:#f5f7f9 url(../images/indextopbg.jpg) 0 0 repeat-x;
+	color: #4d4d4d;
+	font-family: Verdana, Arial, Helvetica,'宋体', sans-serif;
+	font-size:12px;
+}
+
+a {
+	color:#1f1f1f;
+	text-decoration:none;
+}
+a:hover{
+	color:#ff6600;
+	text-decoration:none;
+}
+
+img{border:0 none;}
+
+a img {
+	border:0 none;
+	}
+
+ul{list-style:none;}
+
+li{list-style:none;}
+
+.clear{
+	clear:both;
+}
+/*全局设置结束*/
+
+/*顶部*/
+.p_topbg{
+	clear:both;
+	margin:0 auto;
+	background:url(../images/indextop.jpg) center 0 no-repeat;
+	height:116px;
+}
+.counter{
+	clear:both;
+	margin:0 auto;
+	width:980px;
+}
+
+.indextoprav{
+	float:right;
+	padding:15px 15px 0 0;
+	font-size:14px;
+	font-family:"微软雅黑";
+	color:#fff;
+}
+
+.indextoprav a{
+	text-decoration:none;
+	color:#fff;
+}
+
+.indextoprav a:hover{
+	text-decoration:none;
+	color:#ff6600;
+}
+
+/*登录*/
+.loginbox{
+	clear:both;
+	height:335px;
+	background:#eef1f2;
+	border-bottom:1px solid #f5f7f9;
+}
+
+.loginend{
+	clear:both;
+	height:20px;	
+	border-top:1px solid #dfdfdf;
+}
+
+.loginbg{
+	clear:both;
+	height:334px;
+	width:980px;
+	margin:0 auto;
+	background:url(../images/indexbannerbg.jpg) center 0 no-repeat;
+}
+
+.loginwbg{
+	float:right;
+	margin-right:20px;
+	width:356px;
+	height:274px;
+	background:url(../images/login.png) 0 0 no-repeat;
+}
+
+.logininbox{
+	float:left;
+	padding:66px 0 0 100px;
+}
+
+.inputbox{
+	clear:both;
+	height:47px;
+}
+
+.inputbox input{
+	border:0 none;
+	width:171px;
+	padding:0 5px;
+	line-height:33px;
+	height:33px;
+}
+
+.loginin{
+	background:url(../images/loginin.jpg) 0 0 no-repeat;
+}
+
+.logininon{
+	background:url(../images/loginbluein.jpg) 0 0 no-repeat;
+}
+
+.loginyz{
+	float:left;
+	width:87px;
+}
+
+.loginyz input{
+	width:71px;
+	padding:0 5px;
+	line-height:33px;
+	height:33px;
+	border:0 none;
+}
+
+.yzin{
+	background:url(../images/loginyz.jpg) 0 0 no-repeat;
+}
+
+.yzinon{
+	background:url(../images/loginblueyz.jpg) 0 0 no-repeat;
+}
+
+.loingbutbox{
+	clear:both;
+	padding-top:10px;
+}
+
+.loginbut{
+	float:left;
+	margin-right:10px;
+	width:82px;
+	height:32px;
+}
+
+.loginbut input{
+	width:82px;
+	height:32px;
+	line-height:32px;
+	text-align:center;
+	font-size:14px;
+	background:url(../images/loginbut.gif) 0 0 no-repeat;
+	border:0 none;
+}
+
+.wcoror{ color:#fff;}
+.wcororon{ color:#ff6600;}
+
+.loginpsw{
+	float:left;
+	line-height:32px;
+	width:80px;
+	color:#2d94d5;
+}
+
+.loginpsw a{
+	color:#2d94d5;
+}
+
+
+.loginpsw a:hover{
+	color:#ff6600;
+}
+
+/*用户类型*/
+.userbox, .userbox1, .userbox2, .userbox3{
+	float:left;
+	border-top:2px solid #ff9900;
+	width:236px;
+	height:156px;
+	margin-right:11px;
+	background:url(../images/indexresoubg.jpg) 0 0 no-repeat;
+}
+
+.userbox1{
+	border-top:2px solid #80a93a;
+}
+
+.userbox2{
+	border-top:2px solid #cb59af;
+}
+
+.userbox3{
+	border-top:2px solid #4384c4;
+	float:right;
+	margin-right:0;
+}
+
+.usertit{
+	clear:both;
+	height:30px;
+	line-height:30px;
+	color:#529ed8;
+	padding-left:20px;
+	font-size:13px;
+}
+
+.userpic{
+	float:left;
+	width:103px;
+	text-align:center;
+}
+
+.userword{
+	float:left;
+	width:123px;
+	padding-top:10px;
+	line-height:20px;
+}
+/*全站搜索*/
+.serchbox{
+	clear:both;
+	width:980px;
+	margin:0 auto;
+	padding-top:20px;
+	height:40px;
+}
+
+.serchrav{
+	float:left;
+	height:30px;
+	padding-left:10px;
+}
+
+.serchrav ul{
+	margin:0;
+	padding:0;
+}
+
+.serchrav ul li{
+	float:left;
+	margin-right:5px;
+}
+
+.serchrav ul li.line{
+	float:left;
+	margin-right:5px;
+	padding-top:5px;
+}
+
+.serchrav ul li a{
+	width:62px;
+	line-height:30px;
+	height:30px;
+	text-align:center;
+	font-size:13px;
+	display:block;
+}
+
+.serchrav ul li a:hover, .serchrav ul li.over a, .serchrav ul li.over a:hover{
+	background:url(../images/loginlrav.jpg) 0 0 no-repeat;
+	color:#fff;
+}
+
+.serchrnote{
+	float:right;
+	text-align:right;
+	font-size:20px;
+	font-weight:bold;
+	padding-right:15px;
+	line-height:30px;
+}
+
+.notegreen{
+	color:#79B513;
+	font-size:24px;
+	padding-right:5px;
+	padding-left:15px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.noteblue{
+	color:#1E8DD2;
+	font-size:24px;
+	padding-right:5px;
+	padding-left:15px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.noteorange{
+	color:#EB5E00;
+	font-size:24px;
+	padding-right:5px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.serchbg{
+	clear:both;
+	width:980px;
+	margin:0 auto;
+	height:82px;
+	background:url(../images/indexserbg.jpg) 0 0 no-repeat;
+}
+
+.serchwarp{
+	float:left;
+	padding:10px 0 0 5px;
+	width:521px;
+	height:44px;
+}
+
+.serchwarp input{
+	width:511px;
+	height:44px;
+	line-height:44px;
+	padding:0 5px;
+	background:url(../images/indexserch.jpg) 0 0 no-repeat;
+	border:0 none;
+}
+
+.serchbut{
+	float:left;
+	padding-top:10px;
+	width:102px;
+	height:44px;
+}
+
+.serchbut input{
+	width:102px;
+	height:44px;
+	line-height:44px;
+	background:url(../images/indexserchbut.jpg) 0 0 no-repeat;
+	border:0 none;
+}
+
+.hotword{
+	float:left;
+	padding-left:15px;
+	line-height:62px;
+	font-size:13px;
+	font-weight:bold;
+}
+
+.hotword a{
+	color:#20A9FE;
+}
+
+.hotword a:hover{
+	color:#ff6600;
+}
+
+.hotword span{
+	color:#20A9FE;
+}
+
+.highserch{
+	float:right;
+	padding-right:20px;
+	font-size:14px;
+	line-height:62px;
+}
+
+.highserch a{
+	color:#20A9FE;
+	text-decoration:underline;
+}
+
+.highserch a:hover{
+	color:#ff6600;
+}
+
+/*专业列表*/
+.listbox{
+	clear:both;
+	margin:0 auto;
+	width:978px;
+	margin-bottom:20px;
+	border:1px solid #C3D0E1;
+}
+
+.listboxtit{
+	clear:both;
+	width:976px;
+	margin:0 auto;
+	height:35px;
+	background:url(../images/indexrtopbg.jpg) 0 0 repeat-x;
+}
+
+.listboxtitw{
+	float:left;
+	width:180px;
+	height:33px;
+	line-height:33px;
+	background:url(../images/itophbg.jpg) 0 0 repeat-x;
+	color:#fff;
+	font-size:14px;
+}
+
+.listboxtitw img{
+	padding:0 5px 0 25px;
+}
+
+.listboxtitpic{
+	float:left;
+}
+
+.listwarp{
+	clear:both;
+	padding:10px 0 0 10px;
+}
+
+.listwbg{
+	float:left;
+	margin-right:5px;
+	width:155px;
+	height:150px;
+	line-height:120%;
+	background:url(../images/rlistbg.jpg) 0 0 no-repeat;
+	text-align:center;
+}
+
+.listwbg img{
+	padding:12px 0 20px 0;
+}
+
+/*底部版权*/
+.footer{
+	clear:both;
+	background:#EAEAEA;
+	height:65px;
+	text-align:center;
+	line-height:55px;
+	color:#000;
+}
+
+.footer img{
+	margin-right:10px;
+	vertical-align:middle;
+}
+
+.footer span{
+	margin-right:5px;
+	font-family:Arial, Helvetica, sans-serif;
+}

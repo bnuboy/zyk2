@@ -1,0 +1,354 @@
+@charset "utf-8";
+/*
+-----------------------------------------------
+Author:   kandy gu 
+Version:  2012.3
+----------------------------------------------- */
+
+/*全局设置*/
+*{
+  margin:0px; padding:0px;
+}
+
+body, html {
+	margin: 0;
+	padding: 0;
+	background:#def5f8 url(../images/allbodybg.jpg) 0 0 repeat-x;
+	color: #4d4d4d;
+	font-family: Verdana, Arial, Helvetica,'宋体', sans-serif;
+	font-size:12px;
+}
+
+a {
+	color:#1f1f1f;
+	text-decoration:none;
+}
+a:hover{
+	color:#ff6600;
+	text-decoration:none;
+}
+
+img{border:0 none;}
+
+a img {
+	border:0 none;
+	}
+
+ul{list-style:none;}
+
+li{list-style:none;}
+
+.clear{
+	clear:both;
+}
+/*全局设置结束*/
+
+/*顶部*/
+.p_topbg{
+	clear:both;
+	margin:0 auto;
+	background:url(../images/centertop.jpg) 0 0 no-repeat;
+	width:980px;
+	height:175px;
+}
+
+.boxShadow{
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	border:1px solid 000;
+	-webkit-box-shadow:0 0 2px black;
+	-moz-box-shadow:0 0 2px black;
+}
+
+.counter{
+	clear:both;
+	margin:0 auto;
+	width:980px;
+	background:#fff;
+}
+
+.adminnotice{
+	float:right;
+	padding:109px 15px 0 0;
+	font-size:15px;
+	font-family:"黑体";
+	color:#2c5873;
+}
+
+.adminnotice a{
+	text-decoration:underline;
+	color:#db6700;
+}
+
+.adminnotice a:hover{
+	text-decoration:none;
+	color:#ff0000;
+}
+
+/*全站导航*/
+.ravbox{
+	clear:both;
+	margin:0 auto;
+	padding-top:14px;
+	width:980px;
+	height:35px;
+}
+
+.ravbox ul{
+	margin:0;
+	padding-left:15px;
+}
+
+.ravbox ul li{
+	float:left;
+	height:35px;
+	line-height:35px;
+	font-size:16px;
+	font-family:"黑体";
+	color:#fff;
+}
+
+.ravbox ul li a{
+	font-size:16px;	
+	margin-right:0px;
+	text-decoration:none;
+	width:84px;
+	height:35px;
+	text-align:center;
+	display:block;
+	color:#fff;
+}
+
+.ravbox ul li a:hover, .ravbox ul li.over a, .ravbox ul li.over a:hover{
+	text-decoration:none;	
+	margin-right:0px;
+	color:#0072c9;
+	background:url(../images/centernavon.jpg) 0 0 no-repeat;
+}
+
+.ravbox ul li.bake{	
+	float:right;
+	width:95px;
+	padding-right:25px;
+	display:block
+}
+
+.ravbox ul li.bake a{
+	text-decoration:none;
+	color:#fff;
+	padding-top:3px;
+	width:115px;
+	height:33px;
+	display:block;
+}
+
+.ravbox ul li.bake a:hover{
+	text-decoration:none;
+	color:#ff6600;
+	background:none;
+}
+
+.centerboxtop{
+	clear:both;
+	margin:0 auto;
+	width:951px;
+	height:15px;
+	background:url(../images/centerdatatop.jpg) 0 10px no-repeat;
+}
+
+.centerboxbg{
+	clear:both;
+	margin:0 auto;
+	width:951px;
+	background:url(../images/centerdatamain.jpg) 0 0 repeat-y;
+	margin-bottom:15px;
+}
+
+.centerboxbtm{
+	clear:both;
+	width:951px;
+	background:url(../images/centerbgbto.jpg) 0 bottom no-repeat;
+}
+
+.centerboxbtm1{
+	clear:both;
+	margin:0 auto;
+	width:951px;
+	height:6px;
+	background:url(../images/centerdatabto.jpg) 0 bottom no-repeat;
+	margin-bottom:15px;
+}
+
+/*页面左侧*/
+.centerleft{
+	float:left;
+	padding-top:10p;	
+	width:169px;
+}
+
+.peoness{
+	padding:10px 0 0 10px;
+}
+
+.peoness a{
+	color:#fff;
+}
+
+.peoness a:hover{
+	color:#000;
+}
+
+.peopic{
+	float:left;
+	width:82px;
+	height:85px;
+}
+
+.peopic img{
+	border:3px solid #fff;
+}
+
+.peonessr{
+	float:left;
+	color:#fff;
+	font-size:14px;
+	padding-top:5px;
+	line-height:26px;
+}
+
+.peonessr span{
+	font-size:12px;
+}
+
+.peonote{
+	clear:both;
+	color:#fff;
+	font-size:14px;
+	line-height:20px;
+}
+
+.centerlink{
+	clear:both;
+	margin:5px;
+}
+
+.centerlink a{
+	padding-left:20px;
+	color:#fff;
+	font-size:13px;
+	width:136px;
+	height:32px;
+	line-height:32px;
+	background:url(../images/centergo.jpg) 0 0 no-repeat;
+	display:block;
+}
+
+.centerlink a:hover{
+	padding-left:20px;
+	color:#000;
+	font-size:13px;
+	width:136px;
+	height:32px;
+	line-height:32px;
+	background:url(../images/centergoon.jpg) 0 0 no-repeat;
+}
+
+
+/*页面导航*/
+.menubox{
+	padding-top:10p;	
+	width:169px;		
+	font-size:14px;
+	color:#626262;
+	padding-bottom:20px;
+}
+
+.menubox ul{
+	clear:both;
+	margin-left:5px;
+	padding:0;
+}
+
+.menubox ul li{
+	clear:both;
+	width:160px;
+}
+
+.menubox ul li a{
+	width:130px;
+	padding-left:30px;
+	height:41px;
+	line-height:41px;
+	background:url(../images/centerlravm.jpg) 0 0 no-repeat;	
+	font-size:13px;
+	font-weight:bold;
+	text-decoration:none;
+	color:#626262;
+	display:block;
+}
+
+.menubox .menulist a{ display:block; background:url(../images/centerlravm.jpg) 0 0 no-repeat; line-height:25px; text-indent:40px; color:#666; font-size:12px;}
+.menubox .menulist a.over,.menubox .menulist a:hover{background:url(../images/centerlravmo.jpg) 0px bottom no-repeat;}
+.menubox ul li a:hover, .menubox ul li.over a, .menubox ul li.over a:hover{	
+	width:130px;
+	padding-left:30px;
+	height:41px;
+	line-height:41px;
+	background:url(../images/centerlravmo.jpg) 0 0 no-repeat;
+	text-decoration:none;
+	color:#0072c9;
+}
+
+.menubox ul li.pic{
+	clear:both;
+	width:160px;
+	height:14px;
+	background:url(../images/centerlravtop.jpg) 0 0 no-repeat;
+	margin-bottom:0px;
+	_margin-bottom:-10px;
+}
+
+.menubox ul li img{
+	vertical-align:middle;
+	padding-right:10px;
+}
+
+/*底部版权*/
+.footer{
+	clear:both;
+	width:980px;
+	margin:0 auto;
+	background:#3c3c3c;
+	height:45px;
+	text-align:center;
+	color:#cbcbcb;
+}
+
+.footer img{
+	margin-right:10px;
+	vertical-align:middle;
+	padding-top:3px;
+}
+
+.footer span{
+	margin-right:5px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+/*分页*/
+.allweb_pageo
+{
+	clear:both;
+	padding-top:10px;
+	_margin-top:10px;
+	_padding-top:0px;
+	text-align:center;
+	height:45px;
+}
+
+.fy_p{margin:10px 0;}
+a.fy{border:1px solid #B9B7B7;text-decoration:none; cursor:pointer; padding:3px 7px;margin:1px;font-family:Arial;background:#fff;color:#8B8A8A}
+a.fy:hover{text-decoration:underline; cursor:pointer; color:#ff6600; }
+a.fy2{border:1px solid #B9B7B7; cursor:pointer; text-decoration:none;padding:3px 7px;margin:1px;font-family:Arial;background:#a60000;color:#fff;font-weight:bold}
+.fy_p span{border:1px solid #B9B7B7; padding:3px 7px; font-family:Arial;background:#fff;color:#8B8A8A; margin-left:5px;}

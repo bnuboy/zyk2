@@ -1,0 +1,321 @@
+.wp{ width:961px; margin:auto;}
+#postlist{ border:1px solid #C2D5E3;}
+.pgs{ margin-top:5px;}
+.pbm{ height:30px; line-height:30px; text-align:center}
+.authi .xw1{ font-weight:bold}
+.modmenu .plst{ height:35px; line-height:35px; font-weight:bold; text-indent:15px;}
+.coment{ margin-top:15px; border:1px solid #C2D5E3; overflow:hidden}
+.coment .plc{ padding:20px;}
+input.pn{    background: none repeat scroll 0 0 #E5EDF2;
+    border-color: #C2D5E3 #336699 #336699 #C2D5E3;
+    border-style: solid;
+    border-width: 1px;
+    color: #336699;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    height: 26px;
+    line-height: 26px;
+    margin-right: 3px;
+    overflow: visible;
+    vertical-align: middle;
+    z-index: 0;}
+.ts {
+    font: bold 16px "Microsoft Yahei",Hei,Tahoma,SimHei,sans-serif;
+    padding: 12px 0 10px;
+}
+#modmenu {
+    border-top: 1px solid #CDCDCD;
+    padding: 10px 0;
+}
+#modmenu .pipe, .modmenu .pipe {
+    margin: 0 3px;
+}
+#nv_forum #ct {
+    border-color: #C2D5E3;
+}
+.ie6 .cgtl {
+    width: auto;
+}
+.cgtl {
+    overflow: hidden;
+}
+.cgtl td, .cgtl th, .cgtl caption {
+    border-bottom: 1px solid #C2D5E3;
+    padding: 5px;
+}
+.cgtl caption {
+    background: none repeat scroll 0 0 #E5EDF2;
+    border-top: 1px solid #C2D5E3;
+    font-size: 14px;
+    font-weight: 700;
+}
+.cgtl th {
+    width: 16%;
+}
+#a_magic_doodle {
+    background: url("../../static/image/magic/doodle.small.gif") no-repeat scroll 0 50% transparent;
+    padding-left: 20px;
+}
+.pl {
+}
+.pl table {
+    table-layout: fixed;
+    width: 100%;
+}
+.pl .dt {
+    width: 100%;
+}
+.plm {
+    vertical-align: bottom !important;
+}
+.plc, .pls {
+    overflow: hidden;
+    vertical-align: top;
+}
+.plc {
+    padding: 0 20px;
+}
+.pls {
+    background: none repeat scroll 0 0 #E5EDF2;
+    border-right: 1px solid #C2D5E3;
+    overflow: hidden;
+    width: 180px;
+}
+.pls .avatar {
+    margin: 10px 15px;
+}
+.pls .avatar img {
+    background: url("../../static/image/common/midavt_shadow.gif") repeat-x scroll 0 100% #FFFFFF;
+    padding: 5px 5px 8px;
+}
+.pls p, .pls .pil {
+    margin: 5px 10px 5px 20px;
+}
+.pls p em, .pls dt em {
+    color: #F26C4F;
+}
+.pls dd, .pls dt {
+    float: left;
+    height: 1.6em;
+    line-height: 1.6em;
+    overflow: hidden;
+}
+.pls dt {
+    margin-right: 5px;
+    width: 50px;
+}
+.pls dd {
+    width: 95px;
+}
+.ad .pls {
+    background: none repeat scroll 0 0 #C2D5E3;
+    height: 4px;
+    padding: 0;
+}
+.ad .plc {
+    background: none repeat scroll 0 0 #E5EDF2;
+    overflow: hidden;
+    padding: 0;
+}
+.pl .pnv .pls {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #E5EDF2;
+    border-color: #C2D5E3;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    line-height: 16px;
+}
+.pl .pnv .tns p {
+    font-size: 12px;
+}
+.pl .pnv .plc {
+    border-bottom: 1px solid #C2D5E3;
+}
+.pnh {
+    padding: 11px 20px;
+}
+.tnv {
+    text-align: center;
+    vertical-align: middle;
+}
+#threadstamp {
+    margin: -35px 0 0 500px;
+    position: absolute;
+}
+.pi {
+    border-bottom: 1px dashed #CDCDCD;
+    height: 16px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding: 10px 0;
+}
+.pi strong a {
+    border: 1px solid #FFFFFF;
+    float: right;
+    font-weight: 400;
+    margin-top: -6px;
+    padding: 4px 6px;
+}
+.pi strong a:hover {
+    border-color: #CDCDCD;
+}
+.pls .pi {
+    padding-left: 15px;
+}
+.pi em {
+}
+.pti {
+}
+.authicn {
+    cursor: pointer;
+}
+.pcb {
+    clear: left;
+    margin-right: 130px;
+}
+.ie6 .pcbs table, .ie6 .t_fsz table {
+    width: auto;
+}
+.pcb h1, .pcb h2 {
+    font-size: 1.17em;
+    margin: 8px 0;
+}
+.pcb h1 a {
+    font-weight: 400;
+}
+.pcb h2 em {
+    float: right;
+    font-size: 12px;
+    font-weight: 400;
+}
+#ph {
+    padding: 17px 0 0;
+}
+#ph h1 {
+    font-size: 20px;
+}
+.pcb strong {
+    font-weight: 700;
+}
+.pcb em {
+    color: #666666;
+}
+.pcb span.t_tag {
+    border-bottom: 1px solid #FF0000;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.pcb span.t_tag:hover {
+    border-bottom: 1px solid #F26C4F;
+}
+.pct {
+    padding-bottom: 1em;
+}
+.t_fsz {
+    min-height: 100px;
+}
+* html .t_fsz {
+    height: 100px;
+    overflow: visible;
+}
+.t_f, .t_f td {
+    font-size: 14px;
+}
+.t_f a {
+    color: #336699;
+    text-decoration: underline;
+}
+.t_f ul {
+    margin-left: 14px;
+}
+.t_f li {
+    margin-left: 2em;
+}
+.t_f ul li {
+    list-style-type: disc;
+}
+ul.litype_1 li {
+    list-style-type: decimal;
+}
+ul.litype_2 li {
+    list-style-type: lower-alpha;
+}
+ul.litype_3 li {
+    list-style-type: upper-alpha;
+}
+.po {
+    border-top: 1px dashed #CDCDCD;
+}
+.po .y {
+    margin: 8px 0 0 5px;
+}
+.po p {
+    float: right;
+}
+.po p a, .po p label {
+    margin-right: 6px;
+}
+.pob {
+    line-height: 36px;
+}
+.pob em {
+    float: left;
+}
+.pob em a {
+    padding: 5px 10px 5px 25px;
+}
+
+.pg {
+    float: right;
+}
+.pg, .pgb {
+    line-height: 26px;
+}
+.pg a, .pg strong, .pgb a {
+    background-repeat: no-repeat;
+    border: 1px solid #C2D5E3;
+    color: #333333;
+    display: inline;
+    float: left;
+    height: 26px;
+    margin-left: 4px;
+    overflow: hidden;
+    padding: 0 8px;
+    text-decoration: none;
+}
+.pg a.nxt, .pgb a {
+    padding: 0 10px;
+}
+.pg a:hover, .pgb a:hover {
+    border-color: #336699;
+    color: #336699;
+}
+.pg a.nxt {
+    background-image: url(../images/forum/arw_r.gif);
+    background-position: 90% 50%;
+    padding-right: 25px;
+}
+.pg a.prev {
+    background-image: url(../images/forum/arw_l.gif);
+    background-position: 10% 50%;
+	padding-left: 25px;
+}
+.pg strong {
+    background-color: #E5EDF2;
+}
+.pgb a {
+    background-image: url(../images/forum/arw_l.gif);
+    background-position: 10px 50%;
+    padding-left: 25px;
+}
+#pgt .pg, #pgt .pgb {
+    margin-top: 5px;
+}
+.y {
+    float: right;
+}

@@ -1,0 +1,366 @@
+@charset "utf-8";
+/*
+-----------------------------------------------
+Author:   kandy gu 
+Version:  2012.3
+----------------------------------------------- */
+
+/*全局设置*/
+*{
+  margin:0px; padding:0px;
+}
+
+body, html {
+	margin: 0;
+	padding: 0;
+	background:#fff url(../images/allbofdybg.jpg) 0 0 repeat-x;
+	color: #4d4d4d;
+	font-family: Verdana, Arial, Helvetica,'宋体', sans-serif;
+	font-size:12px;
+}
+
+a {
+	color:#1f1f1f;
+	text-decoration:none;
+}
+a:hover{
+	color:#ff6600;
+	text-decoration:none;
+}
+
+img{border:0 none;}
+
+a img {
+	border:0 none;
+	}
+
+ul{list-style:none;}
+
+li{list-style:none;}
+
+.clear{
+	clear:both;
+}
+/*全局设置结束*/
+
+/*顶部*/
+.p_topbg{
+	background:url(../images/indextop.jpg) repeat-x;
+	width:100%;
+	height:105px;
+}
+
+.p_topp{
+	clear:both;
+	margin:0 auto;
+	width:984px;
+	height:105px;
+}
+.logoimg{ float:left; width:420px; height:104px;}
+
+.boxShadow{
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	border:1px solid 000;
+	-webkit-box-shadow:0 0 2px black;
+	-moz-box-shadow:0 0 2px black;
+}
+
+.counter{
+	clear:both;
+	margin:10px auto;
+	width:984px;
+	min-height: 310px;
+	
+}
+.counterborder{border: 1px solid #BBBBBB;background:#fff;}
+
+.adminnotice{
+	float:right;
+	padding:70px 15px 0 0;
+	font-size:15px;
+	font-family:"黑体";
+	color:#b2d1ed;
+}
+
+.adminnotice a{
+	text-decoration:underline;
+	color:#db6700;
+}
+
+.adminnotice a:hover{
+	text-decoration:none;
+	color:#ff0000;
+}
+
+/*登录*/
+.logingrouppic{
+	float:left;
+	width:709px;
+}
+
+.logingrouppic img{
+	padding:13px 0;
+}
+
+.loginfrombox{
+	background:url(../images/loginadmin.jpg) 0 0 no-repeat;
+	float:left;
+	margin-top:13px;
+    width: 275px;
+	height:284px;
+}
+
+.loginfword{
+	float:left;
+	width:52px;
+	padding-top:41px;
+}
+
+.loginfnword{
+	clear:both;
+	height:38px;
+	line-height:38px;
+	padding-bottom:8px;
+	font-size:13px;
+}
+
+.loginrbox{
+	float:left;padding: 64px 0 0 30px;
+}
+
+.logininputbg{
+	clear:both;
+	height:46px;
+	width:167px;
+}
+
+.logininputbg input{
+	width:164px;
+	border:0 none;
+	line-height:31px;
+	height:31px;
+	padding-left:3px;
+	background:url(../images/inputbg.jpg) 0 0 no-repeat;
+}
+
+.yzma{
+	clear:both;
+	height:31px;
+	padding-bottom:3px;
+}
+
+.yzma a{
+	text-decoration:underline;
+	color:#64adea;
+	font-size:13px;
+}
+
+.yzma a:hover{
+	text-decoration:none;
+	color:#ff6600;
+}
+
+.yzma img{
+	border:1px solid #cccccc;
+	margin-right:10px;
+	vertical-align:bottom;
+}
+
+.loginin{
+	clear:both;
+	padding-left:0px;
+}
+
+.loginin input{
+	width:98px;
+	height:41px;
+	cursor:pointer;
+	border:0 none;
+	height: 32px;
+    width: 82px;
+	color:#fff;
+	font-size:14px;
+}
+
+.inputb{background:url(../images/loginbut.gif) 0 0 no-repeat;}
+
+.inputon{
+	background:url(../images/loginbuttonon.jpg) 0 0 no-repeat;
+}
+/*全站导航*/
+.ravboxbg{
+	background:url(../images/ravboxb.jpg) 0 0 repeat-x;
+	width:100%;
+	height:42px;
+	}
+.ravbox{
+	clear:both;
+	margin:0 auto;
+	width:980px;
+	height:41px;
+	padding-top:0px;
+	
+}
+
+.ravbox ul{
+	margin:0;
+	padding-left:0px;
+}
+
+
+.ravbox ul li {
+    color: #FFFFFF;
+    float: left;
+    font-size: 16px;
+    height: 41px;
+    line-height: 41px;
+}
+.ravbox ul li a {
+    color: #00376f;
+    display: block;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    height: 41px;
+    margin-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 85px;
+}
+.ravbox ul li a:hover, .ravbox ul li.over a, .ravbox ul li.over a:hover {
+    background: url("../images/centernavon.jpg") no-repeat scroll 0 0 transparent;
+    color: #333333;
+    margin-right:10px;
+    text-decoration: none;
+}
+
+
+/*页面导航*/
+.menubox{
+	float:left;	
+	width:146px;		
+	font-size:15px;
+	font-family:"黑体";
+	color:#626262;
+	background:#ededed;
+	border-right:1px solid #bbbbbb;
+	min-height:623px;
+}
+
+.menubox ul{
+	clear:both;
+	margin:0;
+	padding:0;
+	border:1px solid #fefefe;
+	min-height:621px;
+	width:144px;
+}
+
+.menubox ul li{
+	clear:both;
+	width:146px;
+	border-bottom:1px solid #bbbbbb;
+}
+
+.menubox ul li a{
+	clear:both;
+	width:144px;
+	height:41px;
+	line-height:41px;
+	background:#ededed;	
+	font-size:15px;
+	text-decoration:none;
+	color:#00376f;
+	border-top:1px solid #fefefe;
+	display:block; 
+	text-indent: 20px;
+}
+
+.menubox ul li a:hover, .menubox ul li.over a, .menubox ul li.over a:hover{
+	clear:both;
+	width:146px;
+	height:41px;
+	line-height:41px;
+	background:url(../images/navimg.jpg) 116px 13px no-repeat #fff;	
+	font-size:15px;
+	text-decoration:none;
+	color:#333333;
+}
+.menubox ul li.over{ border-top:none;}
+
+.menubox ul li.pic{
+	clear:both;
+	width:146px;
+	height:10px;
+	background:url(../images/muntop.jpg) 0 0 no-repeat;
+	margin-bottom:0px;
+	_margin-bottom:-10px;
+}
+
+/*底部版权*/
+.footbg {
+    background: none repeat scroll 0 0 #F2F5F6;
+    border-top: 1px solid #DADADA;
+    height: 100px;
+    width: 100%;
+}
+.footer{
+	clear: both;
+    color: #333333;
+    height: 45px;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+    width: 984px;
+}
+
+.footer img{
+	margin-right:10px;
+	vertical-align:middle;
+	padding-top:3px;
+}
+
+.footer span{
+	margin-right:5px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+/*分页*/
+.allweb_pageo
+{
+	clear:both;
+	padding-top:10px;
+	_margin-top:10px;
+	_padding-top:0px;
+	text-align:center;
+	height:45px;
+}
+
+.fy_p{margin:10px 0;}
+a.fy{border:1px solid #B9B7B7;text-decoration:none; cursor:pointer; padding:3px 7px;margin:1px;font-family:Arial;background:#fff;color:#8B8A8A}
+a.fy:hover{text-decoration:underline; cursor:pointer; color:#ff6600; }
+a.fy2{border:1px solid #B9B7B7; cursor:pointer; text-decoration:none;padding:3px 7px;margin:1px;font-family:Arial;background:#a60000;color:#fff;font-weight:bold}
+.fy_p span{border:1px solid #B9B7B7; padding:3px 7px; font-family:Arial;background:#fff;color:#8B8A8A; margin-left:5px;}
+
+
+.must_star{padding:8px 0 0 8px;display:inline;color:red;}
+.tegisnote{display:inline;color:red;}
+
+/*表单提示*/
+label.error {
+	/*display: block;*/
+	color: red;
+	background: url(../images/error.png) no-repeat 5px center;
+	padding-left: 25px;
+	line-height: 16px;
+	font-size:12px;
+}
+label.success {
+	color: #3c868e;
+	line-height: 16px;
+	background: url(../images/exclamation.png) no-repeat 5px 0;
+	/*display: block;*/
+	padding-left: 25px;
+	font-size:12px;
+}

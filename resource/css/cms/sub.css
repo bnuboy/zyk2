@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+.news-cont{ width:980px; margin:10px auto; overflow:hidden}
+.nc-left{ float:left; width:220px; overflow:hidden; border:1px solid #d3d3d3; border-radius:3px;}
+.nc-left a{ display:block; line-height:35px; padding-left:35px; font-size:14px; border-bottom:1px solid #d3d3d3; background-image:url(../../images/cms/main-title-bg.jpg); background-repeat:repeat-x; background-position:bottom left; position:relative;}
+.nc-left a:hover,.nc-left a.hver{ background-image:url(../../images/cms/nav-bg.jpg); color:#fff; text-decoration:none; }
+.nc-left a:hover span,.nc-left a.hver span{ display:block; background-image:url(../../images/cms/bullet_go.png); width:16px; height:16px; position:absolute; right:10px; top:10px;}
+.nc-right{ float:right; width:718px; border:1px solid #d3d3d3; background-image:url(../../images/cms/main-bg.jpg); background-repeat:repeat-x; padding:15px; border-radius:5px;}
+.ncr-title{ font-size:24px; text-align:center; line-height:30px; padding:25px 0px;}
+.ncr-cont p{ line-height:24px; font-size:14px; text-indent:24px; padding-bottom:25px;}

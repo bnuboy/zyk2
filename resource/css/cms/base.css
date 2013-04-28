@@ -1,0 +1,279 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+	margin: 0;
+	padding: 0; color:#333
+}
+body, button, input, select, textarea {
+	font: 12px/1.5 微软雅黑,Microsoft Yahei, arial;
+}
+body{
+	
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+}
+address, cite, dfn, em, var {
+	font-style: normal;
+}
+code, kbd, pre, samp {
+	font-family: courier new, courier, monospace;
+}
+small {
+	font-size: 12px;
+}
+ul, ol {
+	list-style: none outside none;
+}
+a {
+	text-decoration: none; color:#333
+}
+a:hover {
+	text-decoration: underline;
+}
+sup {
+	vertical-align: text-top;
+}
+sub {
+	vertical-align: text-bottom;
+}
+legend {
+	color: #000000;
+}
+.fl{
+	float:left
+}
+.fr{
+	float:right
+}
+.clear{
+	clear:both
+}
+.mt10{ margin-top:10px;}
+
+
+.p_topbg {
+    background: url(../../images/indextop.jpg) repeat-x scroll 0 0 transparent;
+    clear: both;
+    height: 105px;
+    width: 100%;
+}
+
+.p_topp {
+    margin: 0 auto;
+    width: 984px;
+}
+.logoimg {
+    float: left;
+    height: 104px;
+    width: 420px;
+}
+.ravboxbg {
+    background: url(../../images/ravboxb.jpg) repeat-x scroll 0 0 transparent;
+    height: 42px;
+    width: 100%;
+}
+
+.ravbox {
+    clear: both;
+    height: 41px;
+    margin: 0 auto;
+    padding-top: 0;
+    width: 980px;
+	position:relative;
+}
+.logo{float:left; padding-top:10px;}
+.header-right{float:right; width:240px; padding-top:15px;}
+.header-right p a{ color:#fff; padding:0px 8px;}
+.header-right div{ position:relative; width:195px; margin:10px 0px 0px 30px}
+.header-right div input.search-text{ border:1px solid #d6d6d6; width:193px; height:23px; line-height:23px; border-radius:5px; box-shadow:1px 2px 2px #c3c1c1 inset;}
+.header-right div input.search-btn{ background:url(../../images/cms/search-btn.png) transparent; width:20px; height:20px; border:0px; position:absolute; left:120px; cursor:pointer; top:3px; left:172px;}
+.nav{ background-image:url(../../images/cms/nav-bg.jpg); height:42px; width:978px; border:1px solid #004fa6; border-radius:4px; margin-top:15px; position:relative}
+.nav-left{ position:absolute;}
+.nav-left li{
+    color: #FFFFFF;
+    float: left;
+    font-size: 16px;
+    height: 41px;
+    line-height: 41px;
+}
+.nav-left li a{
+    color: #00376F;
+    display: block;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    height: 41px;
+    margin-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 85px;
+}
+
+.nav-left ul li a:hover, .nav-left ul li.over a, .nav-left ul li.over a:hover {
+    background: url(../../images/centernavon.jpg) no-repeat scroll 0 0 transparent;
+    color: #333333;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.nav-right{ position:absolute; right:10px; top:10px; width:195px; height:24px;}
+.nav-right h3{
+    background: url(../../images/cms/cms_11.jpg) no-repeat scroll 0 0 #EFEFEF;
+    border-radius: 3px 3px 3px 3px;
+    color: #333333;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: normal;
+    height: 27px;
+    line-height: 27px;
+    padding-left: 5px;
+	width:192px;
+    }
+.nav-right select{ position:absolute; top:0px; left:0px; filter:alpha(opacity=0);
+-moz-opacity:0;
+-khtml-opacity: 0;
+opacity: 0; height:25px; width:195px;}
+
+.footer{ background-color:#eaeaea; height:65px; width:100%;}
+.Ftext{ width:680px; margin:auto; padding-top:15px; height:37px; line-height:37px;}
+.Ftext img{ float:left; margin-left:10px}
+.Ftext a{ padding:0px 10px 0px 0px}
+
+.page{ text-align:right; padding:20px 10px 10px}
+.page a{ display:inline; padding:1px 5px; border:1px solid #d7d7d7; margin:0px 2px}
+.page a:hover,.page a.hver{ border:1px solid #369; background-color:#369; font-weight:bold; color:#fff; text-decoration:none;}
+
+.ravboxbg {
+    background: url(../../images/ravboxb.jpg) repeat-x scroll 0 0 transparent;
+    height: 42px;
+    width: 100%;
+}
+
+
+.inputbox{
+	clear:both;
+	height:47px;
+}
+
+.inputbox input{
+	border:0 none;
+	width:171px;
+	padding:0 5px;
+	line-height:33px;
+	height:33px;
+}
+
+.loginin{
+	background:url(../../images/loginin.jpg) 0 0 no-repeat;
+}
+
+.logininon{
+	background:url(../../images/loginbluein.jpg) 0 0 no-repeat;
+}
+
+.loginyz{
+	float:left;
+	width:87px;
+}
+
+.loginyz input{
+	width:71px;
+	padding:0 5px;
+	line-height:33px;
+	height:33px;
+	border:0 none;
+}
+
+.yzin{
+	background:url(../../images/loginyz.jpg) 0 0 no-repeat;
+}
+
+.yzinon{
+	background:url(../../images/loginblueyz.jpg) 0 0 no-repeat;
+}
+
+.loingbutbox{
+	clear:both;
+	padding-top:10px;
+}
+
+.loginbut{
+	float:left;
+	margin-right:10px;
+	width:82px;
+	height:32px;
+}
+
+.loginbut input{
+	width:82px;
+	height:32px;
+	line-height:32px;
+	text-align:center;
+	font-size:14px;
+	background:url(../../images/loginbut.gif) 0 0 no-repeat;
+	border:0 none;
+	cursor:pointer;
+}
+
+.wcoror{ color:#fff;}
+.wcororon{ color:#ff6600;}
+
+.loginpsw{
+	float:left;
+	line-height:32px;
+	width:80px;
+	color:#2d94d5;
+}
+
+.loginpsw a{
+	color:#11538c;
+}
+
+
+.loginpsw a:hover{
+	color:#ff6600;
+}
+
+.codeindexline{ border-bottom:1px solid #e7e7e7;  margin: 0 40px; width: 900px; height:40px;}
+.findcode{ width:300px;
+    float:left;line-height:35px;
+	color:#333333;
+	font-size:16px;
+	font-family:"微软雅黑";}
+.returnindex{ float:right;line-height:35px;
+	color:#333333;
+	font-size:16px;
+	font-family:"微软雅黑";}
+
+
+.logininbox {
+    float: left;
+    padding: 66px 0 0 100px;
+}
+
+
+.title {
+    background-image: url(../../images/cms/sub-title.jpg);
+    border-bottom: 1px solid #dadada;
+    color: #0158A8;
+    font-size: 14px;
+    height:42px;
+	margin: 1px;
+    line-height: 42px;
+    padding-left: 10px;
+    position: relative;
+	color:#333333;
+	font-size:16px;
+	font-family:"微软雅黑";
+	font-weight:bold;
+}
+
+
+.rboder {
+    border: 1px solid #dadada;
+    border-radius: 2px 2px 2px 2px;
+    width: 354px;
+}
+

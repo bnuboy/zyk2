@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+
+.centerboxtop,.centerboxbg,.centerboxbtm1{background:#fff !important}
+.counter{ padding-top:10px;}
+.navgation {
+	width:961px;
+	margin:0px auto 0px;
+	color:#666;
+	height:35px;
+	line-height:35px;
+	background-color:#ececec;
+	border-radius:3px;
+}
+.navgation div{ font-size:14px; font-family:"微软雅黑"; font-weight:500; color:#333333}
+
+.navgation .fl {
+	padding-left:10px;
+}
+.navgation .fr {
+	font-size:24px;
+	font-family:"微软雅黑";
+}
+.navgation b {
+	color:#0066aa;
+	font-size:30px
+}
+.navg {
+	width:100%;
+	margin:auto;
+	padding-bottom:5px;
+}
+.title {/* background:url(../images/forum/list-bg.png) 0px -114px;*/
+	height:26px;
+	line-height:26px;/* border-left:1px solid #C7E6F8; border-right:1px solid #C7E6F8; */
+	width:100%;
+	margin:auto;
+	text-align:right;
+	padding-right:10px;
+}
+.title a {
+	color:#ff6600;
+	margin-right:10px;
+}
+.bbs {
+	width:961px;
+	margin:5px auto;
+	border:1px solid #bbbbbb;
+}
+.bbs-top {
+	background:url(../images/forum/list-bg.png) 0px -40px;
+	height:39px;
+	line-height:39px;
+	text-indent:10px;
+	font-weight:500;
+	color:#333;
+	font-size:14px;
+	font-family:"微软雅黑";
+}
+.bbsm {
+	width:978px;
+	min-height: 344px;
+	margin-bottom:20px;
+}
+.listwbg{background: url(../images/rlistbg.png) no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 150px;
+    line-height: 120%;
+    margin-right: 5px;
+    text-align: center;
+    width: 155px;}
+.bbsm dl {
+	float:left;
+	padding:15px;
+	width:456px;
+	height:80px;
+}
+
+.bbsm dl img {
+	float:left;
+	padding: 12px 0 0px 10px;
+}
+.bbsm dl dt {
+}
+.bbsm dl dt b {
+	font-size:14px;
+	color:#333;
+}
+.bbsm dl dt b a {
+	font-size:14px;
+	color:#00376f;
+}
+.bbsm dl dt em {
+	color:#ff6600
+}
+.bbsm dl dd {
+	color:#666;
+}
+.bbsm dl dd a {
+	color:#00376f
+}
+.bbsm dl dd span {
+	display:block;
+	padding-top:5px;
+}
+.ftz {
+	width:978px;
+	margin:15px auto;
+	padding-bottom:25px; border-radius:5px;
+	padding-top:25px;
+	font-size:14px;
+	border:1px solid #e3e3e3;
+}
+.ftz dl {
+	width:980px;
+	overflow:hidden;
+	padding:5px 0px;
+}
+.ftz dl dt {
+	float:left;
+	padding-right:10px;
+	width:100px;
+	text-align:right
+}
+.ftz dl dd {
+	float:left
+}
+.ftz h3{ background-image:url(../images/forum/Write%20Document.png); padding-left:35px; height:32px; background-repeat:no-repeat; line-height:32px; margin-left:25px; margin-bottom:15px;}
+.ftz dl dd input.text{ width:500px; height:30px; line-height:30px;}
+.ftz dl dd textarea.textarea{ width:550px; height:200px;}
+.ftz p { padding-left:110px; padding-top:10px;}
+.ftz p input.qd {
+	background: none repeat scroll 0 0 #E5EDF2;
+	border-color: #C2D5E3 #336699 #336699 #C2D5E3;
+	border-style: solid;
+	border-width: 1px;
+	color: #336699;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 700;
+	height: 26px;
+	line-height: 26px;
+	margin-right: 3px;
+	overflow: visible;
+	vertical-align: middle;
+	z-index: 0;
+}
+.ftz p input.qx {
+	border:0px;
+	background-color:#fff;
+}
+
+
+
+

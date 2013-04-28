@@ -1,0 +1,17 @@
+/*表单提示*/
+label.error {
+	/*display: block;*/
+	color: red;
+	background: url(../images/error.png) no-repeat 5px center;
+	padding-left: 25px;
+	line-height: 16px;
+	font-size:12px;
+}
+label.success {
+	color: #3c868e;
+	line-height: 16px;
+	background: url(../images/exclamation.png) no-repeat 5px 0;
+	/*display: block;*/
+	padding-left: 25px;
+	font-size:12px;
+}

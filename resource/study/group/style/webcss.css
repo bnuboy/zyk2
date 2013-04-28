@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+.an_an{float:left;	margin-left:10px;height:30px;width:112px;background:url(../images/addmanage.jpg) 0 0 no-repeat;
+	text-align:center;
+	font-size:13px;
+	line-height:30px;
+	color:#fff; }
+.an_an a{
+	color:#fff;
+}
+
+.an_an a:hover{
+	color:#000;
+}
+.table_data{border:1px solid #D2DCE9;border-left:0 none; }
+.table_data td{border-top:1px solid #D2DCE9;border-left:1px solid #D2DCE9;line-height:28px; height:30px;text-align:left;padding-left:9px;}
+.table_data td img{padding:0 6px;}
+.table_data th{border-left:1px solid #D2DCE9;line-height:28px; font-weight:bold;height:30px; background-color:#F5F7F9;text-align:left;padding-left:9px;font-size:13px;color:#0084C4;}
+.table_data a{text-decoration:underline;color:#7AA23E;}
+.table_data a:hover{text-decoration:none;color:#ff6600;}
+
+.w600{ width:600px;}.w400{ width:400px;}
+.w450{ width:450px;}
+.Scenterboxbg{ width:951px; overflow:hidden;  margin:auto; background:url(../images/centerdatamain.jpg) repeat-y scroll 0 0 transparent}
+.resourbox{ background-color:#fff; width:941px; margin:0px auto 5px; overflow:hidden}
+.Scenterboxbg .middlebox{ width:600px;}
+.Scenterboxbg .downresoursbox{ width:598px; background-image:url(../images/titlebg.jpg); background-repeat:repeat-x; border-right:1px solid #6d9b52; border-left:1px solid #6d9b52; height:29px;}
+.Scenterboxbg .ediaresoursbox{ width:584px; background-image:url(../images/titlebg2.jpg); background-repeat:repeat-x; border-right:1px solid #0040a2; border-left:1px solid #0040a2; height:29px;}
+.Scenterboxbg .resourdata{ width:600px}
+.resourdata td.more{ text-align:right}
+.resourdata td.more a{ color:#6d9b52; margin-right:10px;}
+.anwser {
+	padding-left:15px;
+}
+.anwser a {
+	height:26px;
+	line-height:26px;
+	display:block;
+	float:left;
+	padding:0px 5px;
+	margin:4px 5px 0px;
+	color:#fff;
+}
+.anwser a.hver {
+	background-color:#fff;
+	border-radius:5px 5px 0px 0px;
+	color:#333;
+	font-weight:bold
+}
+.short td.more {
+	text-align:right
+}
+.short td.more a {
+	color:#0084c4;
+	margin-right:10px
+}
+
+.Scenterboxbg  .messbox{ padding-top:10px;}
+.kcxx p{ padding:5px 10px; line-height:22px;}
+.kcxx-img{ text-align:center; padding:10px 0px;}
+
+.Scenterboxbg .noticewarp{ border:0px; width:941px;}
+.Scenterboxbg .noticesbox{ width:941px;}
+.Scenterboxbg .noticetit{ width:941px;}
+.Scenterboxbg .noticenwarp{ width:941px;}
+.Scenterboxbg .noticekatebox{ width:911px;}
+.Scenterboxbg .databox{ width:911px;}
+
+
+.exchange{
+	float:right;
+	padding-bottom:5px;
+	width:776px;
+	border:1px solid #c3d0e1;
+	background-color:#fff;
+	margin-right:3px;
+}
+
+
+
+.Etop{
+	clear:both;
+	width:774px;
+	height:35px;
+	background:url(../images/pagetitbg.jpg) 0 0 repeat-x;
+		color:#1e8dd2;
+	font-size:13px;
+	font-weight:bold; line-height:35px; text-indent:15px;
+	margin:0 auto;
+}
+.Emain{ padding:10px; width:754px; overflow:hidden}
+.Em-left{ float:left; width:540px;}
+.Em-right{ float:right; width:204px;}
+.Eml_text{ width:538px; height:300px; border:1px solid #ccc;}
+.Eml-submit{}
+.Eml-submit textarea{ width:538px; height:100px; margin-bottom:10px; margin-top:10px;}
+.Emrinfor{ width:202px; border:1px solid #c4cfe3; overflow:hidden; height:150px;}
+.Emrinfor p{ padding:10px;}
+.Emrinfor h3{ background:url(../images/pagetitbg.jpg) 0 0 repeat-x; height:35px; line-height:35px; font-size:12px; text-indent:10px;}
+.Emr_people{ margin-top:10px;border:1px solid #c4cfe3; height:300px;}
+.Emr_people h2{ background:url(../images/pagetitbg.jpg) 0 0 repeat-x; margin-bottom:10px; height:35px; line-height:35px; font-size:12px; text-indent:10px;}
+.Emr_people h2 em{ font-size:12px; font-weight:normal; font-style:normal}
+.Emr_people p{ background-image:url(../images/user_green.png); line-height:30px; background-repeat:no-repeat; background-position:10px center; padding-left:35px;}
+.Emr_people div{ height:225px; overflow-y:auto; overflow-x:hidden;}
+
+.Stc {
+	background-color:#fff;
+	border:1px solid #C3D0E1;
+}
+.Stc-top {
+	background-image:url(../images/indexrtopbg.jpg);
+}
+.Stc-top h1 {
+	font-size:14px;
+	height:35px;
+	line-height:35px;
+	padding-left:10px;
+}
+.Stc-bottom {
+	padding:15px
+}
+.Stc-bottom td {
+	padding:5px
+}
+input.delete{
+	background-image:url(../images/alldel.jpg); width:96px; height:30px; border:0px; color:#fff; cursor:pointer
+}
+input.remove {
+	width:75px;
+	height:31px;
+	background:url(../images/resterbg.jpg) 0 0 no-repeat;
+	text-align:center;
+	line-height:31px;
+	font-size:13px;
+	border:0 none;
+	cursor:pointer;
+	color:#fff;
+}
+input.save {
+	width:75px;
+	height:31px;
+	background:url(../images/addbutadd.jpg) 0 0 no-repeat;
+	text-align:center;
+	line-height:31px;
+	font-size:13px;
+	border:0px none;
+	color:#fff;
+	cursor:pointer;
+}
+input.longgray{
+	background-image:url(../images/selectbg.jpg);
+	width:90px;
+	height:29px; 
+	text-align:center; 
+	color:#333; font-size:13px;
+	border:0px;
+	cursor:pointer;
+}
+input.longGren{
+	background-image:url(../images/addmanage.jpg);
+	width:112px;
+	height:30px; 
+	text-align:center; 
+	color:#fff; font-size:13px;
+	border:0px;
+	cursor:pointer;
+}
+
+.zcjg{}
+.zcjg h3{ font-size:14px; color:#006699; line-height:35px;}
+.zcjg span{ display:block; padding-left:20px; line-height:30px;}
+.zcjg span b{ font-size:30px; vertical-align:middle; color:#008000}
+.zcjg p a { text-decoration:underline; color:#006699}
+ul.tw_list{}
+ul.tw_list li{ line-height:22px; padding-left:10px;}
+ul.tw_list li a{ color:#006699}
+.mbj{float:right; color:#006699; font-weight:normal; font-size:12px; padding-right:10px;}
+
+.kcnr{}
+.kcnr h5{ font-size:14px; margin-bottom:10px;}
+.kcnr ul li{ padding-left:20px; line-height:25px;}
